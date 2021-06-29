@@ -1,11 +1,11 @@
 var fizzBuzz = [];
 
-for (var i = 0; i <= 50; i++) {
+for (var i = 1; i <= 50; i++) {
     if (i === 0) continue;
     var message = "";
     if (i % 3 === 0) message += "fizz";
     if (i % 5 === 0) message += "buzz";
-    else (message += i);
+    if (message === "") message = i;
     if (message !== "") fizzBuzz.push(message);
 }
 
@@ -22,8 +22,7 @@ for (var i = 0; i < fizzBuzz.length; i++) {
 }
 
 // brisanje nakon 10 s
-var itemsToDelete = document.querySelectorAll("li");
-setTimeout(itemsToDelete.remove(), 10000);
+setTimeout(function () { ul.remove(); }, 10000);
 
 /*
 VJEŽBA: Manipulacija DOM
