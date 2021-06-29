@@ -21,7 +21,9 @@ for (var i = 0; i < fizzBuzz.length; i++) {
     ul.appendChild(li);
 }
 
-setTimeout(function () { alert("Hello"); }, 1000);
+// brisanje nakon 10 s
+var itemsToDelete = document.querySelectorAll("li");
+setTimeout(itemsToDelete.remove, 10000);
 
 /*
 VJEŽBA: Manipulacija DOM
