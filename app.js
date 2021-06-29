@@ -8,11 +8,10 @@ for (var i = 1; i <= 50; i++) {
     if (message === "") message = i;
     if (message !== "") fizzBuzz.push(message);
 }
-
 // console.log(fizzBuzz);
 
 var ul = document.querySelector("ul");
-console.log(ul);
+// console.log(ul);
 
 // ispis liste iz niza
 for (var i = 0; i < fizzBuzz.length; i++) {
