@@ -21,8 +21,7 @@ for (var i = 0; i < fizzBuzz.length; i++) {
     ul.appendChild(li);
 }
 
-setTimeout ()
-
+setTimeout(function () { alert("Hello"); }, 1000);
 
 /*
 VJEŽBA: Manipulacija DOM
