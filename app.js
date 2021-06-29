@@ -23,7 +23,7 @@ for (var i = 0; i < fizzBuzz.length; i++) {
 
 // brisanje nakon 10 s
 var itemsToDelete = document.querySelectorAll("li");
-setTimeout(itemsToDelete.remove, 10000);
+setTimeout(itemsToDelete.remove(), 10000);
 
 /*
 VJEŽBA: Manipulacija DOM
