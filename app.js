@@ -21,10 +21,12 @@ for (var i = 0; i < fizzBuzz.length; i++) {
     ul.appendChild(li);
 }
 
+setTimeout ()
+
 
 /*
 VJEŽBA: Manipulacija DOM
-Trajanje: cca 30min (~20:2)
+Trajanje: cca 30min (~20:25)
 
 Napravite stranicu (web aplikaciju) koja će ispisati listu FizzBuzz rezultata.
 
