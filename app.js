@@ -1,7 +1,7 @@
 var fizzBuzz = [];
 
 for (var i = 1; i <= 50; i++) {
-    if (i === 0) continue;
+    //if (i === 0) continue;
     var message = "";
     if (i % 3 === 0) message += "fizz";
     if (i % 5 === 0) message += "buzz";
